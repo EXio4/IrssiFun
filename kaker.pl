@@ -28,8 +28,9 @@ sub kaker_own($msg,$server, $win_item) {
 		$msg =~ s/[aA]/4/g;
 		$msg =~ s/[eE]/3/g;
 		$msg =~ s/[Tt]/7/g;
-		$msg =~ s/[Ii]/1/g;
+		$msg =~ s/[IiLl]/1/g;
 		$msg =~ s/[Oo]/0/g;
+		$msg =~ s/[Ss]/5/g;
 		Irssi::signal_continue($msg, $server, $win_item);
 	}
 	
