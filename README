@@ -1,0 +1,10 @@
+My "Private" repository of Funny script
+
+
+Put .pl in ~/.irssi/scripts
+
+Load this with '/script load' command on irssi!
+
+Put script in ~/.irssi/autorun for autoload (Best way is make a simbolic link to real script)
+
+
